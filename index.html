@@ -1,1 +1,366 @@
 
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>أبو جويرية | منتجات الخلية</title>
+
+<style>
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family:Tahoma,Arial,sans-serif;
+background:#fffaf0;
+color:#3b260f;
+line-height:1.7;
+}
+
+header{
+background:linear-gradient(135deg,#4b2c0b,#c88719);
+color:white;
+text-align:center;
+padding:30px 15px;
+}
+
+.logo{
+font-size:55px;
+}
+
+header h1{
+font-size:32px;
+margin:5px 0;
+}
+
+header p{
+font-size:18px;
+}
+
+nav{
+background:#30200d;
+padding:14px;
+text-align:center;
+position:sticky;
+top:0;
+z-index:10;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 12px;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:65px 20px;
+background:linear-gradient(#fff0bf,#ffe39a);
+}
+
+.hero h2{
+font-size:36px;
+margin-bottom:12px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+background:#c9820d;
+color:white;
+padding:12px 24px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+margin:5px;
+}
+
+.btn:hover{
+opacity:.85;
+}
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:50px 20px;
+}
+
+.section h2{
+text-align:center;
+font-size:30px;
+margin-bottom:30px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:18px;
+padding:25px;
+text-align:center;
+box-shadow:0 5px 18px rgba(0,0,0,.12);
+}
+
+.card .icon{
+font-size:65px;
+margin-bottom:10px;
+}
+
+.card h3{
+font-size:21px;
+margin-bottom:10px;
+}
+
+.card p{
+color:#70532d;
+margin-bottom:15px;
+}
+
+.price{
+font-size:20px;
+font-weight:bold;
+color:#b56d00;
+display:block;
+margin-bottom:12px;
+}
+
+.about{
+background:#fff0c7;
+text-align:center;
+padding:45px 20px;
+}
+
+.about p{
+max-width:800px;
+margin:auto;
+font-size:18px;
+}
+
+.contact{
+text-align:center;
+padding:50px 20px;
+}
+
+.contact h2{
+font-size:30px;
+margin-bottom:15px;
+}
+
+.phone{
+font-size:24px;
+font-weight:bold;
+margin:15px;
+}
+
+footer{
+background:#30200d;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+left:20px;
+background:#25d366;
+color:white;
+padding:14px 20px;
+border-radius:35px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 4px 12px rgba(0,0,0,.3);
+z-index:20;
+}
+
+.facebook{
+background:#1877f2;
+}
+
+@media(max-width:600px){
+
+header h1{
+font-size:26px;
+}
+
+.hero h2{
+font-size:27px;
+}
+
+nav a{
+font-size:14px;
+margin:0 5px;
+}
+
+.section{
+padding:35px 15px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">🍯🐝</div>
+<h1>أبو جويرية</h1>
+<p>لبيع منتجات الخلية الطبيعية</p>
+</header>
+
+<nav>
+<a href="#home">الرئيسية</a>
+<a href="#products">منتجاتنا</a>
+<a href="#about">من نحن</a>
+<a href="#contact">اتصل بنا</a>
+</nav>
+
+<section class="hero" id="home">
+
+<h2>مرحبا بكم في أبو جويرية 🍯</h2>
+
+<p>
+منتجات طبيعية من خلية النحل إلى مائدتكم
+</p>
+
+<a href="#products" class="btn">
+شاهد منتجاتنا
+</a>
+
+<a href="https://wa.me/213660994848" class="btn" target="_blank">
+اطلب عبر واتساب
+</a>
+
+</section>
+
+<section class="section" id="products">
+
+<h2>منتجاتنا 🐝</h2>
+
+<div class="products">
+
+<div class="card">
+<div class="icon">🍯</div>
+<h3>عسل النحل الطبيعي</h3>
+<p>
+عسل نحل طبيعي بجودة عالية ومذاق مميز.
+</p>
+<span class="price">السعر حسب الحجم</span>
+
+<a href="https://wa.me/213660994848?text=السلام%20عليكم،%20أريد%20طلب%20عسل%20النحل" class="btn" target="_blank">
+اطلب الآن
+</a>
+</div>
+
+
+<div class="card">
+<div class="icon">🌼</div>
+<h3>حبوب اللقاح</h3>
+<p>
+حبوب لقاح طبيعية ومنتخبة بعناية.
+</p>
+<span class="price">السعر حسب الكمية</span>
+
+<a href="https://wa.me/213660994848?text=السلام%20عليكم،%20أريد%20طلب%20حبوب%20اللقاح" class="btn" target="_blank">
+اطلب الآن
+</a>
+</div>
+
+
+<div class="card">
+<div class="icon">🌰</div>
+<h3>خلطة المكسرات والعسل</h3>
+<p>
+خلطة لذيذة من المكسرات مع عسل النحل الطبيعي.
+</p>
+<span class="price">السعر حسب الحجم</span>
+
+<a href="https://wa.me/213660994848?text=السلام%20عليكم،%20أريد%20طلب%20خلطة%20المكسرات%20والعسل" class="btn" target="_blank">
+اطلب الآن
+</a>
+</div>
+
+
+<div class="card">
+<div class="icon">🐝</div>
+<h3>منتجات الخلية</h3>
+<p>
+مجموعة متنوعة من المنتجات الطبيعية للخلية.
+</p>
+<span class="price">تواصل معنا</span>
+
+<a href="https://wa.me/213660994848?text=السلام%20عليكم،%20أريد%20الاستفسار%20عن%20منتجات%20الخلية" class="btn" target="_blank">
+استفسر الآن
+</a>
+</div>
+
+</div>
+</section>
+
+
+<section class="about" id="about">
+
+<h2>من نحن 🍯</h2>
+
+<p>
+أبو جويرية متجر متخصص في بيع منتجات الخلية الطبيعية،
+ونسعى لتوفير منتجات ذات جودة عالية ومذاق أصيل لزبائننا.
+</p>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+<h2>📞 تواصل معنا</h2>
+
+<p>
+للطلب والاستفسار تواصل معنا مباشرة:
+</p>
+
+<div class="phone">
+0660994848
+</div>
+
+<a href="tel:0660994848" class="btn">
+📞 اتصال
+</a>
+
+<a href="https://wa.me/213660994848" class="btn" target="_blank">
+💬 واتساب
+</a>
+
+<a href="https://www.facebook.com/share/18QLwCuBEr/" class="btn facebook" target="_blank">
+📘 Facebook
+</a>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 أبو جويرية لبيع منتجات الخلية</p>
+<p>🍯 عسل طبيعي 100% 🐝</p>
+
+</footer>
+
+
+<a href="https://wa.me/213660994848" class="whatsapp" target="_blank">
+💬 واتساب
+</a>
+
+</body>
+</html>
