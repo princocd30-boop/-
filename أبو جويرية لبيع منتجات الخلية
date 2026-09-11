@@ -1,1 +1,278 @@
 
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>أبو جويرية | منتجات الخلية الطبيعية</title>
+
+    <!-- Facebook / Open Graph -->
+    <meta property="og:title" content="أبو جويرية | منتجات الخلية الطبيعية">
+    <meta property="og:description" content="عسل طبيعي ومنتجات الخلية بجودة عالية">
+    <meta property="og:image" content="https://princocd30-boop.github.io/-/images/cover.jpg">
+    <meta property="og:url" content="https://princocd30-boop.github.io/-/">
+    <meta property="og:type" content="website">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fffaf0;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #d88900, #f5b942);
+            color: white;
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 25px 15px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.10);
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .product img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .product h2 {
+            color: #b56b00;
+            margin: 15px 10px 8px;
+        }
+
+        .product p {
+            padding: 0 15px;
+            line-height: 1.7;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #c27a00;
+            margin: 12px;
+        }
+
+        .whatsapp {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 11px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .facebook {
+            display: inline-block;
+            background: #1877F2;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            margin: 20px 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            background: #3b260b;
+            color: white;
+            padding: 25px 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍯 أبو جويرية 🍯</h1>
+    <p>منتجات الخلية الطبيعية بجودة عالية</p>
+</header>
+
+<div class="container">
+
+    <h2 style="text-align:center;">🍯 منتجاتنا</h2>
+
+    <div class="products">
+
+        <!-- عسل جبلي -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80"
+                 alt="عسل جبلي">
+
+            <h2>🏔️ عسل جبلي</h2>
+
+            <p>
+                عسل طبيعي ذو مذاق مميز، مناسب لمحبي العسل الأصلي.
+            </p>
+
+            <div class="price">
+                3800 دج / كغ
+            </div>
+
+            <a class="whatsapp"
+               href="https://wa.me/2136609994848?text=السلام عليكم، أريد طلب عسل جبلي"
+               target="_blank">
+               📱 اطلب عبر واتساب
+            </a>
+        </div>
+
+
+        <!-- عسل شوك المرار -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1471943311424-646960669fbc?auto=format&fit=crop&w=800&q=80"
+                 alt="عسل شوك المرار">
+
+            <h2>🌿 عسل شوك المرار</h2>
+
+            <p>
+                عسل طبيعي مستخلص من رحيق نبات شوك المرار.
+            </p>
+
+            <div class="price">
+                3800 دج / كغ
+            </div>
+
+            <a class="whatsapp"
+               href="https://wa.me/2136609994848?text=السلام عليكم، أريد طلب عسل شوك المرار"
+               target="_blank">
+               📱 اطلب عبر واتساب
+            </a>
+        </div>
+
+
+        <!-- متعدد الأزهار -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80"
+                 alt="عسل متعدد الأزهار والجرجير">
+
+            <h2>🌸 عسل متعدد الأزهار والجرجير</h2>
+
+            <p>
+                عسل طبيعي متعدد الأزهار مع نسبة من رحيق الجرجير.
+            </p>
+
+            <div class="price">
+                3800 دج / كغ
+            </div>
+
+            <a class="whatsapp"
+               href="https://wa.me/2136609994848?text=السلام عليكم، أريد طلب عسل متعدد الأزهار والجرجير"
+               target="_blank">
+               📱 اطلب عبر واتساب
+            </a>
+        </div>
+
+
+        <!-- الخلطة -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80"
+                 alt="خلطة أبو جويرية">
+
+            <h2>🍯 الخلطة الخاصة</h2>
+
+            <p>
+                خلطة خاصة من العسل ومكونات طبيعية، بمذاق مميز.
+            </p>
+
+            <div class="price">
+                تواصل معنا لمعرفة السعر
+            </div>
+
+            <a class="whatsapp"
+               href="https://wa.me/2136609994848?text=السلام عليكم، أريد معرفة سعر الخلطة الخاصة"
+               target="_blank">
+               📱 اطلب عبر واتساب
+            </a>
+        </div>
+
+
+        <!-- حبوب اللقاح -->
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=800&q=80"
+                 alt="حبوب اللقاح">
+
+            <h2>🐝 حبوب اللقاح</h2>
+
+            <p>
+                من منتجات الخلية الطبيعية المتوفرة لدينا.
+            </p>
+
+            <div class="price">
+                تواصل معنا لمعرفة السعر
+            </div>
+
+            <a class="whatsapp"
+               href="https://wa.me/2136609994848?text=السلام عليكم، أريد معرفة سعر حبوب اللقاح"
+               target="_blank">
+               📱 اطلب عبر واتساب
+            </a>
+        </div>
+
+    </div>
+
+
+    <div style="text-align:center; margin-top:30px;">
+
+        <a class="facebook"
+           href="https://www.facebook.com/profile.php?id=100067054985647"
+           target="_blank"
+           rel="noopener noreferrer">
+           📘 تابعنا على Facebook
+        </a>
+
+        <br>
+
+        <a class="whatsapp"
+           href="https://wa.me/2136609994848?text=السلام عليكم، أريد الاستفسار عن منتجات أبو جويرية"
+           target="_blank">
+           📱 تواصل معنا عبر WhatsApp
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>🍯 أبو جويرية — منتجات الخلية الطبيعية 🍯</p>
+    <p>جميع الحقوق محفوظة © 2026</p>
+</footer>
+
+</body>
+</html>
